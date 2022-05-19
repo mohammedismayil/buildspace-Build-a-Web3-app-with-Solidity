@@ -183,6 +183,43 @@
       "artifacts": [
         "HugSenderWithMessage"
       ]
+    },
+    "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/HugSenderWithGifts.sol": {
+      "lastModificationDate": 1652982159749,
+      "contentHash": "7f69a7e433be342c206fa87b919d0a20",
+      "sourceName": "contracts/HugSenderWithGifts.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "HugSenderWithGifts"
+      ]
     }
   }
 }
