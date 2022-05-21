@@ -16,6 +16,8 @@ const main = async () => {
   //18may deployed address -0x4E4c2C0eC4A9F5b2e32D6F6586BeeEeA23D3E1C3
 
   //19may deployed address 0x5b5e57Ba9329d13aF2c70a4f5e6ae2629Ea493af
+
+  //21may WavePortal address:  0xc6dA53Ba23D3540d66FF540eA85AA665350Ed202--  with 'wait 15m' error restrictions
   console.log("HugSender address: ", waveContract.address);
 };;
 
