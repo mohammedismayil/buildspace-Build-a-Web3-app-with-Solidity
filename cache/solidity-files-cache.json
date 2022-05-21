@@ -185,8 +185,8 @@
       ]
     },
     "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/HugSenderWithGifts.sol": {
-      "lastModificationDate": 1652982159749,
-      "contentHash": "7f69a7e433be342c206fa87b919d0a20",
+      "lastModificationDate": 1653106719932,
+      "contentHash": "45bb919edd0db3459a7ae0142d7795a2",
       "sourceName": "contracts/HugSenderWithGifts.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -211,9 +211,7 @@
           }
         }
       },
-      "imports": [
-        "hardhat/console.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
         "^0.8.0"
       ],

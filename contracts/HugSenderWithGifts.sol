@@ -2,13 +2,14 @@
 
 pragma solidity ^0.8.0;
 
-import "hardhat/console.sol";
+
 
 
 contract HugSenderWithGifts{
 
  uint256 totalHugs;
  Hug[] hugs;
+ mapping(address => uint256) public lastWavedAt;
  event NewHug(address indexed from, uint256 timestamp, string message);
 struct Hug {
         address hugger; // The address of the user who waved.
@@ -17,12 +18,23 @@ struct Hug {
     }
 
     constructor() payable {
-  console.log("We have been constructed!");
+  
 }
 
+
+
     function hugMe(string memory _message) public {
+        require(
+            lastWavedAt[msg.sender] + 15 minutes < block.timestamp,
+            "Wait 15m"
+        );
+
+        /*
+         * Update the current timestamp we have for the user
+         */
+        lastWavedAt[msg.sender] = block.timestamp;
         totalHugs += 1;
-        console.log("%s has hugged!", msg.sender);
+      
 
         hugs.push(Hug(msg.sender, _message, block.timestamp));
          emit NewHug(msg.sender, block.timestamp, _message);
@@ -38,15 +50,22 @@ struct Hug {
     
 
     function getTotalHugs() public view returns (uint256) {
-        console.log("We have %d total hugs!", totalHugs);
+       
         return totalHugs;
     }
 
     function getAllHugs()public view returns (Hug[] memory) {
         // Optional: Add this line if you want to see the contract print the value!
         // We'll also print it over in run.js as well.
-        console.log("We have %d total hugs!", totalHugs);
+      
         return hugs;
     }
+
+    function getLastHugged()public view returns (uint256) {
+       
+        return lastWavedAt[address(this)];
+    }
+
+
 
 }
