@@ -16,6 +16,9 @@ struct Hug {
         string message; // The message the user sent.
         uint256 timestamp; // The timestamp when the user waved.
     }
+    receive() external payable {
+        // you can leave this function body empty
+    }
 
     constructor() payable {
   
