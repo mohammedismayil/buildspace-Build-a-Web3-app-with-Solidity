@@ -6,7 +6,7 @@ const main = async () => {
   console.log("Account balance: ", accountBalance.toString());
 
   const waveContractFactory = await hre.ethers.getContractFactory(
-    "HugSenderWithMessage"
+    "ETHFaucetDemo"
   );
   const waveContract = await waveContractFactory.deploy();
   await waveContract.deployed();

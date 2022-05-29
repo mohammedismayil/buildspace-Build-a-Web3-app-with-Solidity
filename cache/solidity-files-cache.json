@@ -218,6 +218,41 @@
       "artifacts": [
         "HugSenderWithGifts"
       ]
+    },
+    "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/ETHFaucet.sol": {
+      "lastModificationDate": 1653837282398,
+      "contentHash": "033dd9b5e873fbab497473e4398ff4ec",
+      "sourceName": "contracts/ETHFaucet.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ETHFaucetDemo"
+      ]
     }
   }
 }
