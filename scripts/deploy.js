@@ -22,6 +22,8 @@ const main = async () => {
   //22 may contract address : 0x8f67AeE909E67b70cf929f81cfB448fDA24cE628-- It can receive ether..YAYYYYYYYYYYYY..
 
   //withdraw eth from CA: 0x0976307C69763eAE4DF205471bfcc9e1c451Ee02
+
+  //withdraw eth from CA (input changed to ether not wei)-0xb5feaff0910964bdcaec6640928236a2c8cf71ea-- Actually it should be in wei
   console.log("HugSender address: ", waveContract.address);
 };;
 
