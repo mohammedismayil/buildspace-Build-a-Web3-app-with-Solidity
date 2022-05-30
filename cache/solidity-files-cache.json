@@ -185,8 +185,8 @@
       ]
     },
     "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/HugSenderWithGifts.sol": {
-      "lastModificationDate": 1653205609419,
-      "contentHash": "b32ed796de4ee62d03460f4ef75a5934",
+      "lastModificationDate": 1653844880053,
+      "contentHash": "caf4ce9f0926c4b7423b48afa913529c",
       "sourceName": "contracts/HugSenderWithGifts.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -220,8 +220,8 @@
       ]
     },
     "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/ETHFaucet.sol": {
-      "lastModificationDate": 1653837282398,
-      "contentHash": "033dd9b5e873fbab497473e4398ff4ec",
+      "lastModificationDate": 1653876309641,
+      "contentHash": "fa20ab3f1866f3cd0b25f8bb4d92ded2",
       "sourceName": "contracts/ETHFaucet.sol",
       "solcConfig": {
         "version": "0.8.0",

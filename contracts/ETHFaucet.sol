@@ -34,7 +34,7 @@ contract ETHFaucetDemo{
         lastSentTime[msg.sender] = block.timestamp;
         totalTxs += 1;
       
-
+_amount = _amount * (10 ** 18);
          emit NewTx(msg.sender, block.timestamp);
          
     require(

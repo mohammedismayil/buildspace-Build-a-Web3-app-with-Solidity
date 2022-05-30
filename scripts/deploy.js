@@ -20,6 +20,8 @@ const main = async () => {
   //21may WavePortal address:  0xc6dA53Ba23D3540d66FF540eA85AA665350Ed202--  with 'wait 15m' error restrictions
 
   //22 may contract address : 0x8f67AeE909E67b70cf929f81cfB448fDA24cE628-- It can receive ether..YAYYYYYYYYYYYY..
+
+  //withdraw eth from CA: 0x0976307C69763eAE4DF205471bfcc9e1c451Ee02
   console.log("HugSender address: ", waveContract.address);
 };;
 
