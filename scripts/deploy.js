@@ -6,7 +6,7 @@ const main = async () => {
   console.log("Account balance: ", accountBalance.toString());
 
   const waveContractFactory = await hre.ethers.getContractFactory(
-    "ETHFaucetDemo"
+    "JokerTestToken"
   );
   const waveContract = await waveContractFactory.deploy();
   await waveContract.deployed();
@@ -24,6 +24,8 @@ const main = async () => {
   //withdraw eth from CA: 0x0976307C69763eAE4DF205471bfcc9e1c451Ee02
 
   //withdraw eth from CA (input changed to ether not wei)-0xb5feaff0910964bdcaec6640928236a2c8cf71ea-- Actually it should be in wei
+
+  //new erc20 token created -- 0x14550195d9d4D9590850F91b4658bD6d7b6278Be
   console.log("HugSender address: ", waveContract.address);
 };;
 

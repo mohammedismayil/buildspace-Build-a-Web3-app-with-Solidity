@@ -4,7 +4,7 @@ require("@nomiclabs/hardhat-waffle");
 require("dotenv").config({ path: ".env" });
 require("@nomiclabs/hardhat-etherscan");
 module.exports = {
-  solidity: "0.8.0",
+  solidity: "0.8.7",
   networks: {
     ropsten: {
       // This value will be replaced on runtime

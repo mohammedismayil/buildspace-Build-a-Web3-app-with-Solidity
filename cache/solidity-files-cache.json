@@ -1,12 +1,47 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
+    "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/ETHFaucet.sol": {
+      "lastModificationDate": 1653876309641,
+      "contentHash": "fa20ab3f1866f3cd0b25f8bb4d92ded2",
+      "sourceName": "contracts/ETHFaucet.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ETHFaucetDemo"
+      ]
+    },
     "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/Greeter.sol": {
-      "lastModificationDate": 1652626685814,
+      "lastModificationDate": 1653117978912,
       "contentHash": "54c28c84e5277b35b8c8329ce9755dae",
       "sourceName": "contracts/Greeter.sol",
       "solcConfig": {
-        "version": "0.8.0",
+        "version": "0.8.7",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -39,11 +74,11 @@
       ]
     },
     "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1652626696623,
+      "lastModificationDate": 1653117980692,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
-        "version": "0.8.0",
+        "version": "0.8.7",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -74,11 +109,11 @@
       ]
     },
     "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/WavePortal.sol": {
-      "lastModificationDate": 1652626685814,
+      "lastModificationDate": 1653117978912,
       "contentHash": "c3db25bd5d8f51369bc5ea8e850ef92b",
       "sourceName": "contracts/WavePortal.sol",
       "solcConfig": {
-        "version": "0.8.0",
+        "version": "0.8.7",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -110,49 +145,12 @@
         "WavePortal"
       ]
     },
-    "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/HugSender.sol": {
-      "lastModificationDate": 1652626685814,
-      "contentHash": "190012096298cdcbe8ca6f0b8369ad34",
-      "sourceName": "contracts/HugSender.sol",
-      "solcConfig": {
-        "version": "0.8.0",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "SendHugs"
-      ]
-    },
     "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/HugSenderWithMessage.sol": {
       "lastModificationDate": 1652894839736,
       "contentHash": "0efd6fa538fc4dfa602283b8c55d715e",
       "sourceName": "contracts/HugSenderWithMessage.sol",
       "solcConfig": {
-        "version": "0.8.0",
+        "version": "0.8.7",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -184,12 +182,49 @@
         "HugSenderWithMessage"
       ]
     },
+    "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/HugSender.sol": {
+      "lastModificationDate": 1653117978913,
+      "contentHash": "190012096298cdcbe8ca6f0b8369ad34",
+      "sourceName": "contracts/HugSender.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SendHugs"
+      ]
+    },
     "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/HugSenderWithGifts.sol": {
       "lastModificationDate": 1653844880053,
       "contentHash": "caf4ce9f0926c4b7423b48afa913529c",
       "sourceName": "contracts/HugSenderWithGifts.sol",
       "solcConfig": {
-        "version": "0.8.0",
+        "version": "0.8.7",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -219,12 +254,12 @@
         "HugSenderWithGifts"
       ]
     },
-    "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/ETHFaucet.sol": {
-      "lastModificationDate": 1653876309641,
-      "contentHash": "fa20ab3f1866f3cd0b25f8bb4d92ded2",
-      "sourceName": "contracts/ETHFaucet.sol",
+    "/Users/mohammedismayil/ismayildemo/buildspace-Build-a-Web3-app-with-Solidity/contracts/JokerTestToken.sol": {
+      "lastModificationDate": 1656955999237,
+      "contentHash": "8f12ead5ab026df22d33e251e876af5f",
+      "sourceName": "contracts/JokerTestToken.sol",
       "solcConfig": {
-        "version": "0.8.0",
+        "version": "0.8.7",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -248,10 +283,14 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.5"
       ],
       "artifacts": [
-        "ETHFaucetDemo"
+        "Context",
+        "ERC20",
+        "IERC20",
+        "IERC20Metadata",
+        "JokerTestToken"
       ]
     }
   }
