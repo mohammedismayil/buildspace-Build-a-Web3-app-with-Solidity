@@ -6,7 +6,7 @@
       "contentHash": "fa20ab3f1866f3cd0b25f8bb4d92ded2",
       "sourceName": "contracts/ETHFaucet.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.5",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -41,7 +41,7 @@
       "contentHash": "54c28c84e5277b35b8c8329ce9755dae",
       "sourceName": "contracts/Greeter.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.5",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -78,7 +78,7 @@
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.5",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -113,7 +113,7 @@
       "contentHash": "c3db25bd5d8f51369bc5ea8e850ef92b",
       "sourceName": "contracts/WavePortal.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.5",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -150,7 +150,7 @@
       "contentHash": "0efd6fa538fc4dfa602283b8c55d715e",
       "sourceName": "contracts/HugSenderWithMessage.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.5",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -187,7 +187,7 @@
       "contentHash": "190012096298cdcbe8ca6f0b8369ad34",
       "sourceName": "contracts/HugSender.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.5",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -224,7 +224,7 @@
       "contentHash": "caf4ce9f0926c4b7423b48afa913529c",
       "sourceName": "contracts/HugSenderWithGifts.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.5",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -259,7 +259,7 @@
       "contentHash": "8f12ead5ab026df22d33e251e876af5f",
       "sourceName": "contracts/JokerTestToken.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.5",
         "settings": {
           "optimizer": {
             "enabled": false,
